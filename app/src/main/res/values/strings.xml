@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Build it Bigger</string>
+    <string name="instructions">Press the button for a delicious joke!</string>
+    <string name="button_text">Local Jokes</string>
+    <string name="action_settings">Settings</string>
+    <string name="banner_ad_unit_id">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="go_to_play_store">Go to PlayStore</string>
+    <string name="online_jokes_free_version_message">Online jokes are only available on the Deluxe version.\nAvailable on the PlayStore</string>
+    <string name="deluxe">Deluxe</string>
+    <string name="cancel">Cancel</string>
+    <string name="interstitialAdUnitId">ca-app-pub-3940256099942544/1033173712</string>
+    <string name="internet_not_available">Internet not is available</string>
+</resources>
