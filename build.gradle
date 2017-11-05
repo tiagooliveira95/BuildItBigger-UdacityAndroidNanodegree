@@ -20,18 +20,6 @@ allprojects {
     }
 }
 
-task runAppEngine (dependsOn: ":backend:appengineRun") {
-    project(":backend").afterEvaluate { backend ->
-        backend.extensions.appengine.daemon = true
-    }
-    doLast {
-        println "started the server!"
-    }
-}
-
-runAppEngine.finalizedBy ":backend:appengineStop"
-
-
 task optionalTask(dependsOn: [":backend:appengineRun",
                               ":app:connectedAndroidTest",
                               ':backend:appengineStop']) {
